@@ -31,7 +31,7 @@ function App() {
 		};
 
 		axios
-			.post("https://106.51.36.139:8090", JSON.stringify(data), {
+			.post("http://106.51.36.139:8090", JSON.stringify(data), {
 				headers: {
 					"Content-Type": "application/json",
 					Connection: "keep-alive",
